@@ -9,15 +9,15 @@ rand = (min, max) => Math.random() * (max - min) + min;
 // params to play with
 const confettiParams = {
     // number of confetti per "explosion"
-    number: 5000,
+    number: 2000,
     // min and max size for each rectangle
     size: { x: [5, 12], y: [10, 10] },
     // power of explosion
-    initSpeed: 100,
+    initSpeed: 80,
     // defines how fast particles go down after blast-off
     gravity: 0.30,
     // how wide is explosion
-    drag: 0.08,
+    drag: 0.05,
     // how slow particles are falling
     terminalVelocity: 6,
     // how fast particles are rotating around themselves
@@ -146,11 +146,11 @@ function confettiLoop() {
 }
 
 
-var audio = new Audio('./FireWorks.mp3');
+var audio = new Audio('./EBS_Launchvideo_audio.mp3');
 audio.loop=true;
 audio.play();
 
 
 window.setTimeout(()=>{
     window.location.replace('https://excellenceinbreeding.org/toolbox/tools/enterprise-breeding-system-ebs')
-  },8000);
+  },9000);
