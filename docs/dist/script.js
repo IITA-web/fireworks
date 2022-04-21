@@ -27,7 +27,7 @@ window.addEventListener("resize", resizeCanvas, false);
         } 
 
         
-        window.setInterval(()=>{ window.location.replace('https://iita.org') }, 7000);
+        window.setInterval(()=>{ window.location.replace('https://excellenceinbreeding.org/toolbox/tools/enterprise-breeding-system-ebs') }, 7000);
         
            
         
