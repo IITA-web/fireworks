@@ -11,10 +11,11 @@ $(".bow").addClass("hide");
 $("#imgFollow").hide();
 
 
-	localStorage.setItem('ribbonCut','cut');
-	window.setTimeout(()=>{
-		window.location.replace('dist/index.html')
-	},1000);
+localStorage.setItem('ribbonCut','cut');
+  window.setTimeout(()=>{
+    window.location.replace('coff.html')
+  },1000);
+
 });
 });
 
