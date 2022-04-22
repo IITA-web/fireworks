@@ -152,5 +152,5 @@ audio.play();
 
 
 window.setTimeout(()=>{
-    window.location.replace('https://excellenceinbreeding.org/toolbox/tools/enterprise-breeding-system-ebs')
+    window.location.replace('./dest.html')
   },9000);
